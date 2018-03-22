@@ -39,10 +39,10 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             });
         }
 
-		if (dan.indexOf('7d9c752d553d6da23acf9c37323bcfe0') >= 0){
+		if (dan.indexOf('https://discordapp.com/assets/7d9c752d553d6da23acf9c37323bcfe0.svg') >= 0){
             bot.sendMessage({
                 to: channelID,
-                message: "<:zap:daa92de51b3a3c9825ea71a700823463> **Recharged** <:zap:daa92de51b3a3c9825ea71a700823463>"
+                message: ":zap: **Recharged** :zap:"
             });
         }
     }
