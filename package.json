@@ -1,0 +1,13 @@
+{
+  "name": "Dan-Bot",
+  "version": "1.0.0",
+  "description": "Hi, I'm Dan.",
+  "main": "bot.js",
+  "author": "SuperPotatoGod",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "express": "^4.16.2",
+    "foreman": "2.0.0",
+    "winston": "^2.4.0"
+  }
+}
