@@ -45,5 +45,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 message: "This is a failure."
             });
         }
+	    
+	    	if (dan.indexOf('Anime Girl') >= 0){
+            bot.sendMessage({
+                to: channelID,
+                message: "This is a failure."
+            });
+        }
     }
 });
