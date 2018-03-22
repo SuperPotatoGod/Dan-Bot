@@ -21,7 +21,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		if (dan.indexOf('Dan') >= 0 || dan.indexOf('Dna') >= 0 || dan.indexOf('dan') >= 0 || dan.indexOf('dna') >= 0 || dan.indexOf('DAN') >= 0 || dan.indexOf('DNA') >= 0){
             bot.sendMessage({
                 to: channelID,
-                message.react: "391436612803756032"
+                message: '<:OneTrueGod:391436612803756032>'
             });
         }
 		
@@ -39,7 +39,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             });
         }
 
-		if (dan.indexOf(':battery:') >= 0){
+		if (dan.indexOf(":battery:") >= 0){
             bot.sendMessage({
                 to: channelID,
                 message: "<:zap:daa92de51b3a3c9825ea71a700823463> **Recharged** <:zap:daa92de51b3a3c9825ea71a700823463>"
