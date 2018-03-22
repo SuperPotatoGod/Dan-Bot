@@ -46,7 +46,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             });
         }
 
-		if (dan.indexOf('<:battery:>') >= 0){
+		if (dan.indexOf('caught: :battery:! You paid') >= 0){
             bot.sendMessage({
                 to: channelID,
                 message: ":zap: **Recharged** :zap:"
